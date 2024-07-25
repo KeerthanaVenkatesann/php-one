@@ -10,6 +10,9 @@ $b = (int)$_POST["b"];
 // var_dump($a);
 // echo "<br>";
 // var_dump($b);
+
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -66,7 +69,7 @@ button{
 <body>
     <div class="table-div">
     <div class="d-flex w-25 mb-2 ">
-           <a href="Index.php"><button class="me-auto align-self-start " >New <i class="fas fa-plus"></i> </button></a>
+           <a href="form.php"><button class="me-auto align-self-start " >New <i class="fas fa-plus"></i> </button></a>
         </div>
 
 <table>
