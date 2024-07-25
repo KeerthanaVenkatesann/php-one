@@ -1,3 +1,22 @@
+
+
+<?php 
+
+
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -38,9 +57,15 @@ input{
     border-radius:5px;
     border:1px solid grey; 
     height: 25px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
 }
 input:focus{
    outline:none;
+}
+input::placeholder{
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
 }
 p{
     font-family: "Open Sans", sans-serif;
@@ -54,8 +79,8 @@ color:grey;
         <div class="form-div">
         <form action="newtask.php" method="post" >
             <p>PHP FORM</p>
-           <input type="text"name="a">
-           <input type="number" name="b">
+           <input type="text"name="a" placeholder="Name"  required>
+           <input type="number" name="b" placeholder="Age" min="18" max="60" required>
             <button>Submit</button>
         </form></div>
     </body>
